@@ -19,12 +19,12 @@ export default function (props) {
             <input
               type="password"
               className="form-control mt-1"
-              placeholder="Enter password"
+              placeholder="Enter password1"
             />
           </div>
           <div className="d-grid gap-2 mt-3">
             <button type="submit" className="btn btn-primary">
-              Submit
+              Submit123
             </button>
           </div>
           <p className="forgot-password text-right mt-2">
