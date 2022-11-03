@@ -24,7 +24,7 @@ export default function (props) {
           </div>
           <div className="d-grid gap-2 mt-3">
             <button type="submit" className="btn btn-primary">
-              Submit123
+              Submit12
             </button>
           </div>
           <p className="forgot-password text-right mt-2">
