@@ -15,7 +15,7 @@ export default function (props) {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Passwordgeetha</label>
+            <label>Passwordgeethakaveri</label>
             <input
               type="password"
               className="form-control mt-1"
