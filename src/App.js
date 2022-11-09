@@ -4,13 +4,9 @@ import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Login from "./containers/login"
 import SignUp from "./containers/signup"
+import Homepage from "./containers/homepage"
 function App() {
   return (
-    //  <BrowserRouter>
-    //    <Routes>
-    //      <Route path="/containers/signu" element={<Login />} />
-    //   </Routes>
-    //  </BrowserRouter>
     
         <div>
         <Login/>
