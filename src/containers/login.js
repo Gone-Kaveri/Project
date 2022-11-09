@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function (props) {
+const Login=()=>{
   return (
     <div className="Auth-form-container">
       <form className="Auth-form">
@@ -35,3 +35,4 @@ export default function (props) {
     </div>
   )
 }
+export default Login;
