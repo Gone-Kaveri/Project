@@ -62,7 +62,7 @@ export default class SignUp extends Component {
                         <label>
                             Password
                         </label>
-                        <input className="form-control" type="password" placeholder="enter password" 
+                        <input className="form-control" type="password" placeholder="enter password correctly" 
                         onChange={(e) => this.setState({ Password: e.target.value })}/>
                     </div>
                     <div className="auth-group">
