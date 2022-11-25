@@ -1,0 +1,12 @@
+.card:hover{
+    transform:scale(1.2);
+    box-shadow:5px 5px 3px gray;
+}
+.container{
+    margin-top:100px;
+}
+.card{
+    gap:20px;
+    display:block;
+    margin-top:50px;
+}

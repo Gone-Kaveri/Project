@@ -1,0 +1,76 @@
+### get all users
+GET http://localhost:5000/customers-api/getcustomers
+
+###
+
+GET http://localhost:5000/customers-api/getcustomers/?username=${Rav}
+
+### getting users by id
+
+GET http://localhost:5000/customers-api/getcustomers/id  
+
+###
+
+POST http://localhost:5000/customers-api/login
+Content-Type: application/json
+
+{
+    "username":"Rav",
+    "password": "Ravi"
+}
+
+###
+
+POST http://localhost:5000/customers-api/create-user
+Content-Type: application/json
+
+{
+    "username":"Rav",
+    "password": "Ravi",
+    "email":"ravi@gmail.com",
+    "city":"Chennai"
+}
+
+
+###
+PUT http://localhost:5000/customers-api/update-user
+Content-Type: application/json
+
+{
+    "username":"Rav",
+    "email":"Rav@gmail.com"
+}
+
+###
+DELETE http://localhost:5000/customers-api/remove-user/?username:${Rav}
+
+
+
+###
+
+
+
+
+
+# ###
+# GET http://localhost:4000/product-api/getproducts
+
+# ###
+# GET http://localhost:4000/product-api/getproduct/250
+
+# ###
+# POST http://localhost:4000/product-api/create-product
+# Content-Type: application/json
+
+# {
+#     "productId":350,
+#     "productName":"Refrigerator",
+#     "brand":"Whirlpool",
+#     "price":100000
+# }
+
+# ###
+# PUT http://localhost:4000/product-api/update-product
+
+# ###
+# DELETE http://localhost:4000/product-api/remove-product
